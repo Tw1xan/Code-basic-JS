@@ -15,3 +15,13 @@ console.log('"Khal Drogo\'s favorite word is "athjahakar""');
 console.log("a".length);
 
 console.log("Gregor Clegane\nDunsen\nPolliver\nChiswyck");
+
+console.log("Winter " + "came " + "for " + "the " + "House " + "of Frey.");
+
+function msGo() {
+  console.log(-3);
+}
+
+console.log(String.fromCharCode(126));
+console.log(String.fromCharCode(94));
+console.log(String.fromCharCode(37));
