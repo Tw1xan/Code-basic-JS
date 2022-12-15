@@ -25,3 +25,23 @@ function msGo() {
 console.log(String.fromCharCode(126));
 console.log(String.fromCharCode(94));
 console.log(String.fromCharCode(37));
+
+const motto = "I will definitely succeed";
+console.log(motto);
+
+let debtors; //Должники
+let secondVariable;
+let thirdVariable;
+let fourthVariable;
+
+console.log(debtors, secondVariable, thirdVariable, fourthVariable);
+
+let swissFranc = 100;
+
+let rublesPerEuro = 65;
+let euroCount = 100 * 0.85;
+let rublesCount = rublesPerEuro * euroCount;
+
+console.log("The price is " + rublesCount + " rubles");
+
+let eurosCount = 100;
