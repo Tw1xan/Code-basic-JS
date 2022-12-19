@@ -45,3 +45,47 @@ let rublesCount = rublesPerEuro * euroCount;
 console.log("The price is " + rublesCount + " rubles");
 
 let eurosCount = 100;
+
+console.log("Переменные и конкатенация");
+
+let info = "We couldn't verify your mother's maiden name.";
+let intro = "Here is important information about your account security.";
+
+let firstName = "Joffrey";
+let greeting = "Hello";
+
+// BEGIN (write your solution here)
+
+let gluingOfString = greeting + ", " + firstName + "!";
+
+console.log(gluingOfString);
+
+let bodyOfletter = info + "\n" + intro;
+
+console.log(gluingOfString + "\n" + bodyOfletter);
+
+// END
+
+// Стили именования
+
+let lowerCamelCase;
+
+console.log(lowerCamelCase);
+
+// JavaScript: Магические числа
+
+/* eslint prefer-const: 0, prefer-template: 0 */
+
+let king = "King Balon the 6th";
+
+// BEGIN (write your solution here)
+
+let numberCastle = 6;
+
+let numberOfRooms = 17;
+
+console.log(king + " has " + numberCastle * numberOfRooms + " rooms.");
+
+// END
+
+//JavaScript: Константы
