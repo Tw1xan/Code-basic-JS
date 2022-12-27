@@ -87,5 +87,32 @@ let numberOfRooms = 17;
 console.log(king + " has " + numberCastle * numberOfRooms + " rooms.");
 
 // END
+//JavaScript: Слабая типизация
 
-//JavaScript: Константы
+console.log("7" - (-8 - -2));
+console.log(7 - ("-8" - -2));
+console.log(7 - (-8 - -2) + "4");
+
+console.log();
+
+const result = Math.pow(2, "boom");
+console.log(result);
+
+//JavaScript: Функции с переменным числом параметров
+
+const minNumber = Math.min(3, 10, 22, -3, 0);
+console.log(minNumber);
+
+const nameBob = "Robb";
+
+console.log(nameBob.length);
+
+const temperature = 22.93;
+const roundedTemperature = temperature.toFixed(1);
+
+console.log(roundedTemperature);
+
+const name = "Tirion";
+console.log(name.toUpperCase());
+
+console.log(name);
