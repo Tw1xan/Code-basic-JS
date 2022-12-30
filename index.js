@@ -112,7 +112,37 @@ const roundedTemperature = temperature.toFixed(1);
 
 console.log(roundedTemperature);
 
-const name = "Tirion";
-console.log(name.toUpperCase());
+const nameOne = "Tirion";
+console.log(nameOne.toUpperCase());
 
-console.log(name);
+console.log(nameOne);
+
+const text = "Never forget what you are, for surely the world will not";
+
+console.log("First:" + text[0]);
+console.log("Last:" + text[text.length - 1]);
+
+const textTwon =
+  "When \t\n you play a \t\n game of thrones you win or you die.";
+
+console.log(textTwon.slice(5, 15).trim().length);
+
+//javascript Возврат значений
+
+const sayHurrayThreeTimes = () => {
+  const utka = "hurray!";
+  return `${utka} ${utka} ${utka}`;
+  console.log(utka); // не выполниться
+};
+
+const truncate = (text, length = 10) => {
+  text = "Привет, я сейчас сьем два бутерброда с колбасой и сыром";
+  const result = text.slice(0, length) + "...";
+  return result;
+};
+truncate();
+const isStrongPassword = (password) => {
+  const length = password.length;
+  return length > 8 && length < 20;
+};
+isStrongPassword("qwerty");
