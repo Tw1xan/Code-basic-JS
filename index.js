@@ -146,3 +146,9 @@ const isStrongPassword = (password) => {
   return length > 8 && length < 20;
 };
 isStrongPassword("qwerty");
+
+const isLeapYear = (year) => {
+  const result = year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0);
+  return result;
+};
+console.log(isLeapYear(2016));
